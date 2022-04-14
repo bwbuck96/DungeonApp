@@ -41,6 +41,7 @@ namespace Dungeon
                         "A) Attack\n" +
                         "R) Run Away\n" +
                         "P) Player Info\n" +
+                        "W) Weapon Stats\n" +
                         "M) Monster Info\n" +
                         "X) Exit\n");
 
@@ -64,6 +65,9 @@ namespace Dungeon
                             Console.WriteLine("Player Info: ");
                             // 11 Print out Player info
                             Console.WriteLine(playerOne);
+                            break;
+                        case ConsoleKey.W:
+                            Console.WriteLine(sword);
                             break;
                         case ConsoleKey.M:
                             Console.WriteLine("Monster Info: ");
